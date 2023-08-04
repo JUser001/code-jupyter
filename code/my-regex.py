@@ -1,7 +1,7 @@
 # %% 연산자 in
 s = 'python kotrin'
 
-# 연산자 in 사용 검색
+# 연산자 in 사용 검색 true or false
 print('py' in s)
 print('kot' in s)
 print('onkot' in s)
@@ -54,3 +54,6 @@ print(m.span(), m.start(), m.end())
 
 fa = findall(p, s)
 print(fa)
+
+#%%
+dir(str)
